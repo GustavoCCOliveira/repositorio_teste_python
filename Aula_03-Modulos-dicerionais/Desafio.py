@@ -1,21 +1,8 @@
-escolha_usuario = 0
-# 0 sair do programa
-# 1 - entrar no programa
+#desafio do voto
+import pygame
+# import playsound
 
-match escolha_usuario:
-    case 0:
-        print("sair do programa")
-    case 1:
-        print("entrar no programa")
-    case _:
-        print("erro!!")
-
-
-
-
-
-
-
-
-ID = input("qual a sua idade: ")
-
+pygame.mixer.init()
+pygame.mixer_music.load("Mcpoze.mp3")
+pygame.mixer.music.play()
+input()
